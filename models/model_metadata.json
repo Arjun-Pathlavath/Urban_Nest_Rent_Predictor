@@ -1,0 +1,36 @@
+{
+  "winner": "Grid Search",
+  "final_test_mae": 12414.25,
+  "methods": {
+    "Grid Search": {
+      "best_cv_mae": 13493.20,
+      "time_seconds": 167.0,
+      "best_params": {
+        "n_estimators": 200,
+        "max_depth": 30,
+        "min_samples_split": 2
+      },
+      "description": "Exhaustive search over 60 pre-defined hyperparameter combinations."
+    },
+    "Random Search": {
+      "best_cv_mae": 13550.13,
+      "time_seconds": 176.6,
+      "best_params": {
+        "n_estimators": 138,
+        "max_depth": 22,
+        "min_samples_split": 2
+      },
+      "description": "Random sampling from integer bounds over 60 trials."
+    },
+    "Bayesian (Optuna)": {
+      "best_cv_mae": 13498.39,
+      "time_seconds": 261.1,
+      "best_params": {
+        "n_estimators": 189,
+        "max_depth": 30,
+        "min_samples_split": 2
+      },
+      "description": "Sequential model-based optimization using Tree-structured Parzen Estimator (TPE)."
+    }
+  }
+}

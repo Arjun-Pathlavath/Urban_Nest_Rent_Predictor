@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Large ZIP archives and data dumps (prevents pushing files exceeding GitHub limits)
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files and workspace settings
+.vscode/
+.idea/
+
+# Testing caches
+.pytest_cache/
+
+# Local Streamlit caches & secrets (never push credentials)
+.streamlit/secrets.toml
+
+# User temporary copy files and directories
+*- Copy.ipynb
+* - Copy.ipynb
+* - Copy (2).ipynb
+* - Copy (3).ipynb
+*- Copy/
+* - Copy/
+* - Copy (2)/
+* - Copy (3)/
+plots - Copy/
+plots_1/
+
+# Embedded repositories (to avoid git submodule warnings)
+Urban_Nest_Rent_Predictor_GitHub/
+Urban_Nest_Rent_Predictor_GitHub_LFS/
+urban_nest_rent_predictor/
